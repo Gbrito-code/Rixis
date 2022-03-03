@@ -10,6 +10,30 @@ body {
   --animate-duration: 4s;
 }
 
+/*animação do scroll */
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+/*animação do scroll */
+
 /* This changes all the animations globally */
 :root {
   --animate-duration: 800ms;
