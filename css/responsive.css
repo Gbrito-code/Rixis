@@ -1,0 +1,43 @@
+@media (max-width: 900px) {
+    :root {
+        --marquee-height: 16vh;
+        --marquee-elements-displayed: 4;
+    }
+  
+    .marquee:before, .marquee:after {
+        width: 5rem;
+    }
+  }
+  @media (max-width: 765px){
+    .btn{
+      width: 100%;
+    }
+    .banner h2{
+      font-size: 2rem;
+    }
+    .img-footer{
+      width: 120px !important; 
+    }
+  
+  }
+  
+  @media (max-width: 600px) {
+    :root {
+        --marquee-height: 12vh;
+        --marquee-elements-displayed: 3;
+    }
+    .about-2 .checklist li {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  
+    .marquee:before, .marquee:after {
+        width: 4rem;
+    }
+  }
+
+  @media (max-width: 500px){
+    .about-2 .checklist li {
+        font-size: 0.8rem;
+    }
+  }
