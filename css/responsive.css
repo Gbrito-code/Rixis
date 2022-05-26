@@ -1,3 +1,13 @@
+@media (max-width: 990px){
+  .pricing-table .pricing-item{
+    padding: 20px 15px 20px;
+  }
+  .pricing-table .pricing-item ul {
+    padding-left: 1px;
+  }
+}
+
+
 @media (max-width: 900px) {
     :root {
         --marquee-height: 16vh;
@@ -6,7 +16,8 @@
   
     .marquee:before, .marquee:after {
         width: 5rem;
-    }
+    }    
+
   }
   @media (max-width: 765px){
     .btn{
