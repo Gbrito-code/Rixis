@@ -17,6 +17,9 @@
     .marquee:before, .marquee:after {
         width: 5rem;
     }    
+    .pricing-block {
+      margin-bottom: 30px;
+    }
 
   }
   @media (max-width: 765px){

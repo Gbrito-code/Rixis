@@ -1,8 +1,116 @@
+/*---------- BUTTONS ----------*/
+.btn {
+  font: 600 10.5px/1;
+  display: inline-block;
+  padding: 15px 45px 15px 45px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  transition: all .2s;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-hero,
+.btn-white:hover {
+  color: #fff !important;
+  background: #635CDB;
+}
+
+.btn-hero:focus {
+  color: #fff !important;
+}
+
+.btn-black,
+.btn-hero:hover {
+  background-color: black;
+  color: #fff !important;
+}
+
+.btn-black:hover {
+  color: #fff;
+  background: #635CDB;
+}
+
+.btn-black:focus {
+  color: #fff;
+}
+
+.btn-white {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.85);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.btn-white:focus {
+  color: #000;
+}
+
+.btn-white:active {
+  color: #fff;
+}
+
+.btn-trans-black {
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.btn-trans-black:hover {
+  color: white;
+  background-color: #000;
+}
+
+.btn-trans-white {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.btn-trans-white:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.85);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.btn-trans-white:active,
+.btn-trans-white:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.btn-rounded {
+  border-radius: 2px;
+}
+
+.btn-circled {
+  border-radius: 40px;
+}
+
+.btn-trans-black:hover {
+  background: #635CDB !important;
+}
+
 /*--------------------------
   SERVICE AREA SECTION
 ----------------------*/
 .bg-feature {
   background-color: #073A5B;
+}
+.bg-main {
+  background: #F4F8FB;
+}
+.section-padding {
+  padding: 90px 0px;
 }
 .section-heading {
   text-align: center;
@@ -13,7 +121,15 @@
   margin-bottom: 20px;
   font-weight: 400;
 }
-
+.section-heading {
+  width: 100%;
+}
+.line {
+  width: 50px;
+  background: #635CDB;
+  height: 1px;
+  margin: 10px auto;
+}
 
 .page-banner-area.page-service {
   background: url("../images/bg/bg-2.jpg") no-repeat;
@@ -23,6 +139,22 @@
 #service-head {
   padding-bottom: 100px;
   padding-top: 90px;
+}
+h4 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+#service-head .section-title {
+  color: #fff;
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 #service-head .section-title {
@@ -81,80 +213,115 @@
 .service-inner span {
   color: #83D0F5;
 }
+/*------------------------------------
+  PRICING SECTION AREA
+--------------------------------*/
+#pricing {
+  padding-bottom: 100px;
+}
+#pricing h4 {
+  font-weight: 600;
+  
+}
 
-/*=================================================================
- Preço dos Serviços
-==================================================================*/
-.pricing-table {
-    padding: 100px 0;
-    background: url("../img/pricing-bg.jpg");
-    position: relative;
-  }
-  
-  .pricing-table .title p {
-    color: #fff;
-  }
-  
-  .pricing-table:before {
-    background: rgba(0, 0, 0, 0.62);
-    position: absolute;    
-    content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .pricing-table .container {
-    position: relative;   
-  }
-  
-  .pricing-table .pricing-item {
-    padding: 40px 55px 65px;
-    background: #fff;
-    margin-bottom: 20px;
-  }
-  
-  .pricing-table .pricing-item a.btn-main {
-    text-transform: uppercase;
-    margin-top: 20px;
-  }
-  
-  .pricing-table .pricing-item li {
-    font-weight: 400;
-    padding: 10px 0;
-    color: #666;
-    list-style: none;
-  }
-  
-  .pricing-table .pricing-item li i {
-    margin-right: 0px;
-  }
-  
-  .pricing-table .price-title {
-    padding: 30px 0 20px;
-  }
-  
-  .pricing-table .price-title > h3 {
-    font-weight: 700;
-    margin: 0 0 5px;
-    font-size: 15px;
-    text-transform: uppercase;
-  }
-  
-  .pricing-table .price-title > p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    margin-top: 5px;
-  }
-  
-  .pricing-table .price-title .value {
-    color: #28ABE3;
-    font-size: 50px;
-    padding: 10px 0;
-  }
-/* Preço dos Serviços*/
+#pricing a {
+  text-decoration: none;
+  transition: all 0.2s;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+#pricing a:hover {
+  color: #635CDB;
+  text-decoration: none;
+}
+
+#pricing a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+#pricing ul,
+li {  
+  list-style: none;
+}
+
+.pricing-block {
+  text-align: center;
+  transition: all .3s 0s ease;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.price-header {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.price-header i {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 50px;
+  display: inline-block;
+  border-radius: 100%;
+  transition: all .3s ease 0s;
+  color: #635CDB;
+  border: 1px solid #eee;
+}
+
+.price-header .price {
+  font-size: 70px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.price-header h5 {
+  font-weight: 400;
+}
+
+.price-header .price small {
+  font-size: 18px;
+}
+
+.pricing-block ul {
+  padding: 20px 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.pricing-block ul li {
+  padding: 6px 0px;
+}
+
+.pricing-block .btn {
+  margin-bottom: 30px;
+}
+
+.pricing-block:hover i {
+  background-image: -webkit-linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+  background-iamge: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+  color: #fff;
+  border: 1px solid #53a0fd;
+}
+
+.pricing-block:hover,
+.pricing-block.active {
+  background: #fff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+}
+
+#pricing .section-heading {
+  margin-bottom: 90px;
+}
+
+/* -------------------
+PRICING PAGE
+--------------------*/
 
 
 /* TESTIMONIAL */
@@ -181,6 +348,28 @@
     left: 0;
     bottom: 0;
   }
+  .single-page-cyber:before {
+    background-image: url(../img/cyber.jpg);
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .single-page-cloud:before{ 
+    background-image: url();
+    background-repeat: no-repeat; 
+  }
+  .single-page-outsourcing:before{
+    background-image: url();
+    background-repeat: no-repeat; 
+  }
+  .single-page-hardware:before{
+    background-image: url();
+    background-repeat: no-repeat;
+  }
+
   .single-page-service:before {
     background: #073a5b;
     position: absolute;
