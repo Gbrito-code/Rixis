@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
+
 body {
-  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Rubik", sans-serif;
   background-color: #fff;  
   position: relative;
+  font-family: "Rubik", sans-serif;
 }
 
 /* This only changes this particular animation duration */
@@ -80,6 +83,8 @@ p {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+  margin-bottom: 0px; 
 }
 
 a {
@@ -261,7 +266,7 @@ a, a:hover {
 /* About */
 
 
-/* parcerias */
+/* parcerias start*/
 .marquee {
   width: var(--marquee-width);
   height: var(--marquee-height);
@@ -329,11 +334,7 @@ a, a:hover {
   /* height: 100%; */
   border: 2px solid #eee;
 }
-
-
-/* parcerias */ 
-
-
+/* parcerias end*/ 
 
 
 
@@ -358,6 +359,15 @@ a, a:hover {
   margin-top: 20px;
 }
 /* Call To Action 1 */ 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -829,4 +839,5 @@ a, a:hover {
 }
 
 /* menu navbar*/
+
 

@@ -100,6 +100,59 @@
   background: #635CDB !important;
 }
 
+
+/*-------------------- ------------
+ INTRO SECTION
+-----------------------------*/
+#intro {
+  padding-bottom: 0px;
+}
+
+.intro-img {
+  margin-top: 45px;
+}
+
+#intro .section-heading p {
+  color: #000;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.intro-box {
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.intro-box h4:before {
+  position: absolute;
+  left: 0px;
+  top: 17px;
+  content: "";
+  bottom: 0px;
+  background: #000;
+  width: 50px;
+  height: 2px;
+}
+
+.intro-box h4 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 60px;
+}
+
+.intro-box span {
+  font-size: 28px;
+  color: #635CDB;
+  font-weight: 700;
+}
+
+.intro-cta {
+  margin-top: 40px;
+}
+
+
 /*--------------------------
   SERVICE AREA SECTION
 ----------------------*/
@@ -563,8 +616,6 @@ PRICING PAGE
 .btn-transparent:hover {
     color: #fff;
 }
-
-
 /* contact /*
 
 
@@ -589,7 +640,6 @@ PRICING PAGE
     bottom: 0;
     left: 0;
 }
-
 .slider-item {
     background-size: cover;
     background-position: center center;
